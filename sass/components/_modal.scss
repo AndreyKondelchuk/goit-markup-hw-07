@@ -71,9 +71,12 @@
   width: 18px;
   height: 18px;
 }
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-  fill: var(--accent-color);
+
+.modal-close-btn {
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 }
 
 .form,

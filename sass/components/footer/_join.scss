@@ -32,7 +32,9 @@
   fill: currentColor;
   margin: 12px;
 }
-.join .social-networks:hover,
-.join .social-networks:focus {
-  background-color: var(--accent-color);
+.join .social-networks {
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }

@@ -74,8 +74,11 @@
   fill: currentColor;
   margin: 12px;
 }
-.social-networks:hover,
-.social-networks:focus {
-  color: var(--background-color);
-  background-color: var(--accent-color);
+
+.social-networks {
+  &:hover,
+  &:focus {
+    color: var(--background-color);
+    background-color: var(--accent-color);
+  }
 }
